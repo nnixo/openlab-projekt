@@ -1,0 +1,88 @@
+h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#header-container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: auto;
+  max-width: 1100px;
+  margin: 0 115px;
+  padding: 0 12px;
+  border-bottom: 1px solid #d7eaff;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#header-container1-txt{
+  margin-right: 48px;
+  vertical-align: middle;
+  color: black;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+#header-container1-button{
+  display: flex;
+  padding: 8px, 10px;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 50rem;
+  border: 1px solid rgb(209, 209, 209);
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+  color: rgb(143, 143, 143);
+  cursor: pointer;
+  transition: ease 0.2s;
+  font-family: 'SF Pro Display', sans-serif;
+  letter-spacing: 1px;
+}
+
+#header-container1-button:hover {
+  color: black;
+}
+
+#header-container-img1 {
+  margin-left: 5px;
+}
+
+#header-container2 {
+  background-color: transparent;
+  height: 64px;
+  padding: 8px 0;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  max-width: 1296px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#header-nav-list {
+  display: inline-flex !important;
+  background-color: transparent;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.nav-list {
+  margin: 20px;
+}
+
+.nav-list a {
+  text-decoration: none !important;
+  color: black !important;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 15px;
+}

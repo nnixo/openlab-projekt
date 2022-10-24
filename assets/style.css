@@ -1,7 +1,25 @@
-h3 {
+* {
   margin: 0;
   padding: 0;
   border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+body {
+  line-height: 1;
+  font-family: 'SF Pro Display', sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+header, nav, section {
+  display: block;
 }
 
 #header-container1{
@@ -14,11 +32,12 @@ h3 {
   max-width: 1100px;
   margin: 0 115px;
   padding: 0 12px;
-  border-bottom: 1px solid #d7eaff;
+  border-bottom: 1px solid #d7eaff !important;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-size: 13px;
 }
 
 #header-container1-txt{
@@ -31,23 +50,25 @@ h3 {
   font-family: 'SF Pro Display', sans-serif;
 }
 
-#header-container1-button{
-  display: flex;
-  padding: 8px, 10px;
+#header-discord-btn{
+  display: inline-block;
+  padding: 6px 10px;
   align-items: center;
   vertical-align: middle;
-  border-radius: 50rem;
-  border: 1px solid rgb(209, 209, 209);
+  border-radius: 50rem !important;
+  border: 1px solid transparent;
   text-align: center;
-  background-color: rgb(233, 233, 233);
-  color: rgb(143, 143, 143);
+  color: #989ca2;
+  background-color: rgba(152, 156, 162, 0.15);
+  border-color: rgba(152, 156, 162, 0.15);
   cursor: pointer;
   transition: ease 0.2s;
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'SF PRO DISPLAY', sans-serif;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 
-#header-container1-button:hover {
+#header-discord-btn:hover {
   color: black;
 }
 
@@ -77,7 +98,7 @@ h3 {
 }
 
 .nav-list {
-  margin: 20px;
+  margin: 0 20px;
 }
 
 .nav-list a {
@@ -85,4 +106,70 @@ h3 {
   color: black !important;
   font-family: 'SF Pro Display', sans-serif;
   font-size: 15px;
+}
+
+.nav-list a:hover{
+  color: #3597ff !important;
+  transition: ease 0.2s;
+}
+
+#nav-button{
+  padding: 15px 20px;
+  font-size: 13px;
+  background-color: #3597ff !important;
+  border-color: #3597ff !important;
+  border-radius: 6px;
+  color: white !important;
+  border: 0 solid transparent;
+  margin-right: 130px;
+  margin-left: auto;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+#nav-button a{
+  text-decoration: none;
+  color: white !important;
+  font-family: 'SF Pro Display';
+}
+#main-first-container{
+  background-color: #3597ff !important;
+  width: 100%;
+  height: 440px !important;
+  display: flex;
+  justify-content: center;
+}
+
+#main-text-container1{
+  background-color: transparent;
+  padding: 100px 130px;
+  width: fit-content;
+}
+
+h1{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h2{
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  margin-bottom: 1px;
+  line-height: 1.2;
+}
+
+#main-container-img1{
+  width: 543px;
+  float: right;
+  vertical-align: top;
+  z-index: 100;
+  margin: 0;
+}
+
+b{
+  font-weight: 900;
 }

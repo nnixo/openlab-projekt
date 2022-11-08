@@ -134,7 +134,7 @@ section {
 #nav-button a {
   text-decoration: none;
   color: white !important;
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display", sans-serif;
 }
 #main-first-container {
   background-color: #3597ff !important;
@@ -188,4 +188,58 @@ b {
   user-select: none;
   pointer-events: none;
   overflow: hidden !important;
+}
+
+#main-why{
+  color: black !important;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 3rem;
+}
+
+#main-p{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1020px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #566b8d;
+}
+
+.main-h3{
+  font-size: 1.25rem;
+  color: black;
+  font-weight: 700;
+}
+
+.main-p-box{
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #566b8d;
+  width: 261px;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+.main-box{
+  width: 261px;
+  height: 151px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 12px;
+  padding-top: 68px;
+}
+
+#main-container-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-container-about img {
+  margin-bottom: 20px;
 }

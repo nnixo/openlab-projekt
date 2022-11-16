@@ -142,6 +142,7 @@ section {
   height: 440px !important;
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 #main-text-container1 {
@@ -179,7 +180,7 @@ b {
   font-weight: 900;
 }
 
-#main-o-divider{
+#main-o-divider {
   width: 482px;
   position: absolute;
   top: 330px;
@@ -190,33 +191,47 @@ b {
   overflow: hidden !important;
 }
 
-#main-why{
+/* Prečo OpenLab? */
+
+#main-why {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+#main-container-why {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#main-why-h1 {
   color: black !important;
   text-align: center;
-  margin-top: 110px;
   margin-bottom: 3rem;
 }
 
-#main-p{
+#main-p {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1020px;
-  margin-bottom: 0;
-  margin-top: 0;
-  font-size: 0.875rem;
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+  margin-bottom: 1rem;
+  font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 1px;
   color: #566b8d;
 }
 
-.main-h3{
+.main-h3 {
   font-size: 1.25rem;
   color: black;
   font-weight: 700;
 }
 
-.main-p-box{
+.main-p-box {
   font-size: 15px;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -225,7 +240,7 @@ b {
   font-size: 0.875rem;
   margin-top: 10px;
 }
-.main-box{
+.main-box {
   width: 261px;
   height: 151px;
   background-color: transparent;
@@ -234,7 +249,7 @@ b {
   padding-top: 68px;
 }
 
-#main-container-about{
+#main-container-about {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -242,4 +257,119 @@ b {
 
 #main-container-about img {
   margin-bottom: 20px;
+}
+
+/* Naša vízia v OpenLab */
+
+#main-vision {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+#main-container-vision {
+  display: flex;
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  align-items: center !important;
+}
+#main-container-box3 {
+  width: 50%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+#main-container-box3 h3 {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+#main-container-box3 p {
+  color: rgb(86, 107, 141);
+  font-size: 16px !important;
+  font-weight: 500;
+  letter-spacing: 1;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+#main-p3-margin-bottom {
+  margin-bottom: 1rem !important;
+}
+
+#main-container-box4 {
+  width: 50%;
+  display: flex !important;
+  justify-content: flex-end !important;
+  grid-template-columns: auto auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.box-grid1 {
+  margin: 8px;
+  padding: 16px 24px;
+  width: 185px;
+  height: 151px;
+  border-radius: 4px;
+}
+
+.main-box-grid-h2 {
+  font-size: 90px;
+  text-align: right;
+  font-weight: 700;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.main-box-grid-h4 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: right;
+}
+
+/* colors for vision */
+.color-blue {
+  color: rgb(91, 148, 215);
+}
+
+.color-red {
+  color: rgb(185, 94, 115);
+}
+
+.color-yellow {
+  color: rgb(219, 202, 104);
+}
+
+.color-green {
+  color: rgb(92, 193, 154);
+}
+
+.color-blue-bg {
+  background: rgba(221, 236, 251, 0.4);
+  color: rgb(91, 148, 215);
+}
+
+.color-red-bg {
+  background: rgba(238, 156, 156, 0.4);
+  color: rgb(185, 94, 115);
+}
+
+.color-yellow-bg {
+  background: rgba(238, 226, 156, 0.4);
+  color: rgb(219, 202, 104);
+}
+
+.color-green-bg {
+  background: rgba(156, 238, 204, 0.4);
+  color: rgb(92, 193, 154);
 }
